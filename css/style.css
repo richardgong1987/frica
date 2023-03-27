@@ -45,7 +45,7 @@ html {
 body {
     color: #666666;
     font-size: 14px;
-    line-height: 1.80857;
+    line-height: normal;
     font-weight: normal;
     overflow-x: hidden;
     font-family: 'Poppins', sans-serif;
@@ -459,7 +459,7 @@ button {
     float: left;
     background-color: rgb(114, 114, 114);
     height: auto;
-    padding: 5px 0px;
+    padding: 0;
 }
 
 .catagary_main {
@@ -1059,4 +1059,42 @@ button {
 
 :root {
     --swiper-theme-color: #666
+}
+
+.main-container {
+    width: 100%;
+    display: flex;
+    height: auto;
+}
+
+.catagary_menu-sidebar {
+
+    height: auto;
+}
+
+.left-column {
+    width: 13%
+}
+
+.right-column {
+    width: 87%
+}
+
+
+.catagary_menu-sidebar-title {
+    padding-left: 20px;
+}
+
+.catagary_menu-sidebar-title img {
+    margin-bottom: 8px;
+    width: 100%;
+}
+
+.categary_sidebar-menu li {
+    background-color: #f6eaea;
+    padding: 10px 0;
+    padding-left: 15px;
+}
+.categary_sidebar-menu li a:hover{
+    color: #ff5d68;
 }
