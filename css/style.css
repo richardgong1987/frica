@@ -1095,6 +1095,26 @@ button {
     padding: 10px 0;
     padding-left: 15px;
 }
-.categary_sidebar-menu li a:hover{
+
+.categary_sidebar-menu li a:hover {
     color: #ff5d68;
 }
+
+.content-three {
+    display: flex;
+    text-align: center;
+}
+
+.content-three img {
+    width: 100%;
+    height: 150px;
+}
+
+.content-three > div {
+    flex: 1;
+}
+
+.content-three1 img {
+    max-height: 350px;
+}
+
