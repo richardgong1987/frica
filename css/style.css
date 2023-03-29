@@ -491,12 +491,13 @@ button {
 .catagary_menu ul {
     margin: 0px;
     padding: 0px;
-    display: inline-block;
+    display: flex;
     text-align: center;
 }
 
 .catagary_menu li {
     float: left;
+    flex: 1;
     font-size: 14px;
     color: #ffffff;
     padding: 0px 10px;
