@@ -1082,7 +1082,7 @@ button {
 
 
 .catagary_menu-sidebar-title {
-    padding-left: 0px;
+    padding-left: 0;
 }
 
 .catagary_menu-sidebar-title img {
@@ -1107,16 +1107,12 @@ button {
 
 .content-three img {
     width: 100%;
-    height: 150px;
 }
 
 .content-three > div {
     flex: 1;
 }
 
-.content-three1 img {
-    max-height: 350px;
-}
 
 .catagary_menu-sidebar a {
     background-image: url("../images/arrow2.png") !important;
