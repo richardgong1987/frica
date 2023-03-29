@@ -1082,7 +1082,7 @@ button {
 
 
 .catagary_menu-sidebar-title {
-    padding-left: 20px;
+    padding-left: 0px;
 }
 
 .catagary_menu-sidebar-title img {
@@ -1091,9 +1091,9 @@ button {
 }
 
 .categary_sidebar-menu li {
-    background-color: #f6eaea;
+    background-color: rgb(250, 247, 243);
     padding: 10px 0;
-    padding-left: 15px;
+    padding-left: 10px;
 }
 
 .categary_sidebar-menu li a:hover {
@@ -1118,3 +1118,8 @@ button {
     max-height: 350px;
 }
 
+.catagary_menu-sidebar a {
+    background-image: url("../images/arrow2.png") !important;
+    background-repeat: no-repeat;
+    padding-left: 15px;
+}
