@@ -491,16 +491,15 @@ button {
 .catagary_menu ul {
     margin: 0px;
     padding: 0px;
-    display: flex;
+    display: inline-block;
     text-align: center;
 }
 
 .catagary_menu li {
     float: left;
-    flex: 1;
-    font-size: 14px;
+    font-size: 18px;
     color: #ffffff;
-    padding: 0px 10px;
+    padding: 5px 18px;
 }
 
 .catagary_menu li a {
@@ -616,7 +615,7 @@ button {
 .computers_taital {
     width: 100%;
     float: left;
-    font-size: 28px;
+    font-size: 20px;
     color: #252424;
     text-align: center;
     text-transform: uppercase;
@@ -1047,9 +1046,12 @@ button {
     align-items: center;
 }
 
-.swiper-slide img {
+.swiper-slide a{
+    width: 100%;
     display: block;
-    object-fit: cover;
+}
+.swiper-slide img {
+    width: 100%;
 }
 
 :root {
